@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  tboard-complex:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-25T16:09:45.170558826+02:00"
+    dependencies:
+    - name: kafka
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.1.2
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    description: A tb chart for Kubernetes
+    digest: 3db688a0d37bf1fe237c12dce7454ce9146695c8add1387acfcd2ef1a2c988be
+    name: tboard-complex
+    type: application
+    urls:
+    - https://laarchenko.github.io/tboard-complex-0.1.1.tgz
+    version: 0.1.1
+  tboard-standalone:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-25T16:09:45.170808843+02:00"
+    description: A tb chart for Kubernetes
+    digest: cb0f2fb1726a3f6fd07d5e746385256ab06be6d5532f2979f1d1f9a3e233f0fb
+    name: tboard-standalone
+    type: application
+    urls:
+    - https://laarchenko.github.io/tboard-standalone-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-11-25T16:09:45.159801588+02:00"
