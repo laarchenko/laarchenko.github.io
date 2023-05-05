@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  app-project:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-05T13:03:13.696136921+03:00"
+    description: An app chart for Kubernetes
+    digest: 84786d090a941e5e1e92ed7920d8c8338cd95c339a51d0135bf2d681fe457af8
+    name: app-project
+    type: application
+    urls:
+    - app-project-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-05-05T13:03:13.69583779+03:00"
